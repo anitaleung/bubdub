@@ -313,7 +313,6 @@ li {
 }
 
 #inputMessage {
-	width: 7em;
 	font-size: 1.6em;
 	padding: 0.3em 0.6em;
 	border-radius: 90px;
@@ -322,6 +321,7 @@ li {
 	border-top-right-radius: 0px;
 	border-bottom-right-radius: 0px;
 	float: left;
+	width: 65%;
 }
 
 #sendMessage {
@@ -333,6 +333,8 @@ li {
 	float: left;
 	border-top-left-radius: 0px;
 	border-bottom-left-radius: 0px;
+	text-align: center;
+	width: 35%;
 }
 
 #messages-header {
