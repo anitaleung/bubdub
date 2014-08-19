@@ -9,6 +9,13 @@ $(document).bind("mobileinit", function(){
 });
 
 $('#app-title').on('click', function(){
+  var audioElement = document.createElement('audio');
+        audioElement.setAttribute('src', 'blop.mp3');
+        //audioElement.load()
+
+        $.get();
+
+        audioElement.play().stop();
   $(this).hide();
   $('#pop-message').hide().html('You\'re ready!').show();
   window.setTimeout(function (){$('#home-page').contents().fadeOut('fast'); }, 800);
