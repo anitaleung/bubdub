@@ -123,7 +123,7 @@ myDataRef.on('value', function(snapshot) {
       myDataRef.child('users').child(main_relationship).child(thisId).set(null);
       $(this).remove();
       var audioElement = document.createElement('audio');
-        audioElement.setAttribute('src', 'blop.mp3');
+        audioElement.setAttribute('src', 'http://picosong.com/czmU');
         //audioElement.load()
 
         $.get();
