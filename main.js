@@ -9,7 +9,7 @@ $(document).bind("mobileinit", function(){
 });
 
 $('#app-title').on('click', function(){
-  
+
   $(this).hide();
   $('#pop-message').hide().html('You\'re ready!').show();
   window.setTimeout(function (){$('#home-page').contents().fadeOut('fast'); }, 800);
@@ -123,7 +123,7 @@ myDataRef.on('value', function(snapshot) {
       myDataRef.child('users').child(main_relationship).child(thisId).set(null);
       $(this).remove();
       var audioElement = document.createElement('audio');
-        audioElement.setAttribute('src', 'http://picosong.com/czmU');
+        audioElement.setAttribute('src', 'http://picosong.com/cdn/18c06514b55dfe1a9f12b8b2538d1a18/');
         //audioElement.load()
 
         $.get();
