@@ -27,7 +27,7 @@ li {
 	left: 21%;
 	padding: 0.5em 1em;
 	font-size: 2em;
-	font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+	font-family: sarina, cursive;
 	color: #00B7EB;
 	background-color:#FFC1CC;
 	border-radius: 90px;
@@ -157,7 +157,7 @@ li {
 	background: blue;
 	display: inline-block;
 	margin-top: 0.6em;
-	background: url('options2.png') no-repeat center center;
+	background: url('http://s30.postimg.org/igulvacfx/options2.png') no-repeat center center;
 	background-size: 73%;
 }
 
@@ -344,7 +344,7 @@ li {
 
 #back-to-page-two {
 	/*background: rgb(117, 59, 116);*/
-	background: rgb(117, 53, 116) url('left-arrow.png') no-repeat 0.6em center;
+	background: rgb(117, 53, 116) url('http://s7.postimg.org/mez0lsedj/left_arrow.png') no-repeat 0.6em center;
 	color: #fff;
 	padding: 0.6em 0.8em 0.5em 1.7em;
 	background-size: 16.9%;
