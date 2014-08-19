@@ -1,0 +1,397 @@
+body {
+	position: relative;                                                                                                                                                                                                                                                                                                                                                                                                         
+}
+
+body, h1, input, a, span {
+	font-family: 'Nunito', "Helvetica Rounded", Arial, sans-serif;
+	font-size: bold;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+li {
+	list-style-type: none;
+}
+
+/* HOME */
+
+#home-page {
+	background:url(http://fc00.deviantart.net/fs71/f/2010/136/7/2/Bubbles_2_by_crystalmirrors.jpg) no-repeat center center;
+}
+
+#app-title {
+	position: absolute;
+	top: 33%;
+	left: 21%;
+	padding: 0.5em 1em;
+	font-size: 2em;
+	font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+	color: #00B7EB;
+	background-color:#FFC1CC;
+	border-radius: 90px;
+	box-shadow: 0px 4px 14px rgba(109, 108, 108, 0.5);
+}
+
+#app-description {
+	color: #F3F2F4;
+	position: absolute;
+	left: 19%;
+	top: 55%;
+}
+
+#pop-message {
+	color: #E5F2F8;
+	background: #3998AF;
+	display: inline-block;
+	padding: 0.8em;
+	border-radius: 7px;
+	position: absolute;
+	margin-left: 5em;
+	animation: up-and-down 1.5s infinite;
+	-webkit-animation: up-and-down 1.5s infinite;
+	-moz-animation: up-and-down 1.5s infinite;
+	-o-animation: up-and-down 1.5s infinite;
+}
+
+@-webkit-keyframes up-and-down {
+  0%   { bottom: 24.5em; }
+  50% { bottom: 24em; }
+  100%   { bottom: 24.5em; }
+}
+@-moz-keyframes up-and-down {
+  0%   { bottom: 24.5em; }
+  50% { bottom: 24em; }
+  100%   { bottom: 24.5em; }
+}
+@-o-keyframes up-and-down {
+  0%   { bottom: 24.5em; }
+  50% { bottom: 24em; }
+  100%   { bottom: 24.5em; }
+}
+@keyframes up-and-down {
+  0%   { bottom: 24.5em; }
+  50% { bottom: 24em; }
+  100%   { bottom: 24.5em; }
+}
+
+/* PAGE ONE - LOGIN */
+
+#page-one {
+	background-color: #29C87C;
+}
+
+#login-title {
+	font-size: 1.8em;
+	text-align: center;
+	padding: 0.4em 0.3em;
+	color: #fff;
+	margin: 5em 0 -1em 0;
+}
+
+#login-group {
+	padding: 2em 0 3em 0;
+	text-align: center;
+	margin: 1em;
+	border-radius: 11px;
+}
+
+#login-welcome {
+	color: #218153;
+}
+
+#loginUsername {
+	border: 1px solid #3EA373;
+	/* border-bottom: 1px solid rgb(218, 218, 218); */
+	font-size: 1.1em;
+	border-radius: 5px;
+	padding: 0.8em 1em 0.7em 1em;
+	background-color: #29AC6D;
+	color: #fff;
+	width: 100%;
+	margin-bottom: 0;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+#login {
+	padding: 0.8em 0;
+	color: #1A201D;
+	font-size: 1.1em;
+	margin-top: 0;
+	background: #218153;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	-webkit-transition: 0.2s color ease;
+	-o-transition: 0.2s color ease;
+	transition: 0.2s color ease;
+}
+
+#loginUsername::-webkit-input-placeholder {
+   color: #218153;
+}
+
+#loginUsername:-moz-placeholder { /* Firefox 18- */
+   color: #218153;  
+}
+
+#loginUsername::-moz-placeholder {  /* Firefox 19+ */
+   color: #218153;  
+}
+
+#loginUsername:-ms-input-placeholder {  
+   color: #218153;  
+}
+
+/* PAGE TWO - FRIENDS */
+#page-two {
+	background: #F38978;
+	color: #fff;
+}
+
+#options {
+	float: right;
+	width: 25px;
+	height: 25px;
+	background: blue;
+	display: inline-block;
+	margin-top: 0.6em;
+	background: url('options2.png') no-repeat center center;
+	background-size: 73%;
+}
+
+#options-menu {
+	position: absolute;
+	text-align: right;
+	margin-top: 2.7em;
+	right: 1em;
+	display: none;
+	z-index: 100;
+}
+
+#options-menu:before {
+	content: '';
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 5px 8.7px 5px;
+	border-color: transparent transparent #A55144 transparent;
+	position: absolute;
+	top: -7px;
+	right: 7px;
+}
+
+#options-menu li {
+	text-align: center;
+	width: 8em;
+}
+
+#options-menu a {
+	display: inline-block;
+	background: #A55144;
+	padding: 0.5em;
+	width: 100%;
+	color: #663A33;
+	font-size: 1.2em;
+	box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.12);
+}
+
+#add-friends-container {
+	margin-top: 0.8em;
+	height: 3.2em;
+	overflow: hidden;
+}
+
+#add-friends-button {
+	background: #D57061;
+	color: #914439;
+	display: block;
+	padding: 0.6em 0;
+	text-align: center;
+	font-size: 1.3em;
+}
+
+#inputFriend {
+	margin: 0;
+	font-size: 1.3em;
+	padding: 0.6em;
+	position: relative;
+	border-radius: 0px;
+	width: 11em;
+	float: left;
+}
+
+#friend-list {
+	text-align: center;
+}
+
+#inputFriend::-webkit-input-placeholder {
+   color: #EEC8C2;
+}
+
+#inputFriend:-moz-placeholder { /* Firefox 18- */
+   color: #EEC8C2;  
+}
+
+#inputFriend::-moz-placeholder {  /* Firefox 19+ */
+   color: #EEC8C2;  
+}
+
+#inputFriend:-ms-input-placeholder {  
+   color: #EEC8C2;  
+}
+
+#addFriend {
+	display: inline-block;
+	font-size: 1.3em;
+	color: #fff;
+	background: #D57061;
+	padding: 0.7em 1.1em;
+}
+
+.friend-name {
+	background-color: #D57061;
+	display: inline-block;
+	font-size: 1.5em;
+	margin-top: 0.8em;
+	padding: 0.5em 0;
+	color: #fff;
+}
+
+.friend-name:link,
+.friend-name:visited {
+	color: #fff;
+}
+
+#userInfo {
+	float: left;
+	color: #BB6456;
+	font-size: 1.4em;
+	margin-top: 0.3em;
+}
+
+#pop-message:after {
+	content: '';
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 13.0px 7.5px 0 7.5px;
+	border-color: #3997af transparent transparent transparent;
+	position: absolute;
+	top: 44px;
+	left: 55px;
+}
+
+/* PAGE THREE - MESSAGES */
+#page-three {
+	background-color: rgb(177, 109, 177);
+	padding-top: 4em;
+}
+
+#friend-title {
+	color: #fff;
+	text-align: center;
+	margin-top: 0;
+}
+
+#page-one .ui-content {
+	padding: 0;
+}
+
+.ui-header .ui-title, .ui-footer .ui-title {
+	margin: 0 auto;
+}
+
+.ui-input-text, .ui-input-search {
+	outline: none;
+	box-shadow: none;
+	color: #333;
+	border: none;
+}
+
+#inputMessage {
+	width: 7em;
+	font-size: 1.6em;
+	padding: 0.3em 0.6em;
+	border-radius: 90px;
+	color: rgb(170, 100, 170);
+	margin: 0;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	float: left;
+}
+
+#sendMessage {
+	background: rgb(196, 129, 195);
+	color: #fff;
+	padding: 0.4em 1em;
+	border-radius: 90px;
+	font-size: 1.5em;
+	float: left;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+
+#messages-header {
+	background: rgb(134, 80, 134);
+	overflow: hidden;
+	border: none;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+#back-to-page-two {
+	/*background: rgb(117, 59, 116);*/
+	background: rgb(117, 53, 116) url('left-arrow.png') no-repeat 0.6em center;
+	color: #fff;
+	padding: 0.6em 0.8em 0.5em 1.7em;
+	background-size: 16.9%;
+	display: inline-block;
+	border: none;
+	font-size: 0.9em;
+	box-shadow: none;
+	position: relative;
+	margin: 0.6em 0 0.9em 0.8em;
+	text-shadow: none;
+}
+
+#login, 
+.friend-name
+{
+	display: block;
+}
+
+#logout {
+	display: none;
+}
+
+.single-message span {
+	margin-bottom: 0.5em;
+	display: inline-block;
+	padding: 0.3em 0.5em;
+	background-color: rgb(255, 255, 255);
+	color: rgb(170, 100, 170);
+	border-radius: 90px;
+	font-size: 1.5em;
+}
+
+#message-sent {
+	background: #91DB94;
+	padding: 1em 2em;
+	display: block;
+	position: absolute;
+	top: 9em;
+	left: 50%;
+	margin-left: -5em;
+	color: #fff;
+	border-radius: 90px;
+	display: none;
+}
+
+.error {
+    border-color: rgb(255, 58, 58);  
+    background-color: rgb(243, 154, 154);  
+}
+
