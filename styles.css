@@ -215,7 +215,7 @@ li {
 #inputFriend {
 	margin: 0;
 	font-size: 1.3em;
-	padding: 0.6em;
+	padding: 0.8em 0.6em 0.4em 0.6em;
 	position: relative;
 	border-radius: 0px;
 	width: 80%;
