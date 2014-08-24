@@ -27,9 +27,9 @@ li {
 	left: 21%;
 	padding: 0.5em 1em;
 	font-size: 2em;
-	font-family: sarina, cursive;
-	color: #00B7EB;
-	background-color:#FFC1CC;
+	font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+	color: #7B7F81;
+	background-color: #fff;
 	border-radius: 90px;
 	box-shadow: 0px 4px 14px rgba(109, 108, 108, 0.5);
 }
